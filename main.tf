@@ -11,4 +11,10 @@ module "roboshop" {
   # private subnet
   private_subnets_cidr = var.private_subnets_cidr
 
+  # databasesubnet
+  database_subnets_cidr = var.database_subnets_cidr
+
+  # peering
+  is_peering_required = var.is_peering_required
+
 }
